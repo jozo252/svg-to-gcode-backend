@@ -49,7 +49,7 @@ INSTALLED_APPS = [
 
 # Allow frontend to access backend (CORS)
 CORS_ALLOWED_ORIGINS = [
-    "https://frontend-r3otk9a94-jozo252s-projects.vercel.app/",  # ✅ Add your Vercel frontend URL
+    "https://frontend-axsptfyvn-jozo252s-projects.vercel.app/",  # ✅ Add your Vercel frontend URL
     "http://localhost:5173",  # ✅ Keep for local development
     
 ]
