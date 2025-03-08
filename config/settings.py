@@ -26,9 +26,7 @@ SECRET_KEY = 'django-insecure-2-dtc41n#5k7+_t03(h#9du*ew2v=g!)3)6g2ekjx@jtv!$0p5
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "localhost",
-    "127.0.0.1",
-    "web-production-1cabb.up.railway.app",  # Replace with your actual Railway URL
+    "*",
 ]
 
 
@@ -51,8 +49,8 @@ INSTALLED_APPS = [
 
 # Allow frontend to access backend (CORS)
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # React Dev Server
-    "https://your-vercel-app.vercel.app"  # Add when deployed
+    "https://frontend-r3otk9a94-jozo252s-projects.vercel.app/",  # ✅ Add your Vercel frontend URL
+    "http://localhost:5173",  # ✅ Keep for local development
     
 ]
 MIDDLEWARE = [
