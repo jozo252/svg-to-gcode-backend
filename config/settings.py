@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "*",
-]
+] #--------------------------------------------------------------------------------------PORIESIT PRI DEPLOYMENTE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 # Application definition
@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     "corsheaders",
-    # Third-party
+   
     'rest_framework',
 
     # Local apps
